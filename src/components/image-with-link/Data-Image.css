@@ -1,0 +1,38 @@
+.data-image-text {
+  position: relative;
+  color: white;
+  top: 178px;
+  display: inline-block;
+  right: 25%;
+  border-left: 3px solid white;
+  padding-left: 20px;
+}
+
+.data-image-container {
+  overflow: auto;
+  white-space: nowrap;
+  transition: 2s all ease;
+  overflow: hidden;
+}
+
+.data-image-container .data-image {
+  width: 100%;
+  display: inline-block;
+}
+
+.data-image-container .slide-content {
+  display: inline-block;
+}
+
+.slide-content {
+  background: linear-gradient(#f6f4f5, #dedcdd);
+  width: 600px;
+  vertical-align: bottom;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.slide-content .content {
+  white-space: normal;
+  text-align: justify;
+}

@@ -1,0 +1,37 @@
+.exp-info-title span {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #694a35;
+}
+
+.exp-info-title hr {
+  color: #f0d065;
+  border-top: 3px solid;
+  border-bottom: 0;
+  width: 180px;
+}
+
+.exp-info-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px 50px;
+  justify-content: center;
+}
+
+.exp-info-img:nth-child(odd) {
+  margin-right: 25px;
+}
+
+.exp-info-img {
+  background-color: #f8f6f7;
+  min-width: 500px;
+  width: 48%;
+  height: 500px;
+  margin-bottom: 25px;
+}
+
+.exp-info-title {
+  color: #694a35;
+  font-size: 2rem;
+  margin-top: 40px;
+}

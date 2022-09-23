@@ -1,0 +1,222 @@
+{
+  "HomeCarousel": [
+    {
+      "id": 0,
+      "header": "Gluten-free Bicycle",
+      "body": "Chillwave knausgaard chambray flannel tumblr, narwhal microdosing blog...",
+      "colour": "#242846",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc1.jpg"
+    },
+    {
+      "id": 1,
+      "header": "Post-ironic Disrupt",
+      "body": "Swag biodiesel disrupt retro fashion, salvia food truck kitsch wolf DIY...",
+      "colour": "#ba9077",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc2.jpg"
+    },
+    {
+      "id": 2,
+      "header": "Lumber-Sexual Roof Party ",
+      "body": "Flexitarian 3 wolf moon cliche, migas scenester street art...",
+      "colour": "#1ABC9C",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc3.jpg"
+    },
+    {
+      "id": 3,
+      "header": "Vegan hoodie trust fund",
+      "body": "Farm-to-table tousled try-hard, normcore ethical tilde iPhone...",
+      "colour": "#C0392B",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc4.jpg"
+    },
+    {
+      "id": 4,
+      "header": "cliche craft beer",
+      "body": "Tote bag flannel normcore polaroid +1. Quinoa actually 90s sustainable...",
+      "colour": "#513B56",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc5.jpg"
+    }
+  ],
+  "InfoTilesData": [
+    {
+      "id": 0,
+      "header": "Gluten-free Bicycle",
+      "body": "Chillwave knausgaard chambray flannel tumblr, narwhal microdosing blog...",
+      "colour": "#242846",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc1.jpg"
+    },
+    {
+      "id": 1,
+      "header": "Post-ironic Disrupt",
+      "body": "Swag biodiesel disrupt retro fashion, salvia food truck kitsch wolf DIY...",
+      "colour": "#ba9077",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc2.jpg"
+    },
+    {
+      "id": 2,
+      "header": "Lumber-Sexual Roof Party ",
+      "body": "Flexitarian 3 wolf moon cliche, migas scenester street art...",
+      "colour": "#1ABC9C",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc3.jpg"
+    },
+    {
+      "id": 3,
+      "header": "Vegan hoodie trust fund",
+      "body": "Farm-to-table tousled try-hard, normcore ethical tilde iPhone...",
+      "colour": "#C0392B",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc4.jpg"
+    }
+  ],
+  "PhilosophyData": [
+    {
+      "id": 0,
+      "header": "Gluten-free Bicycle",
+      "body": "Chillwave knausgaard chambray flannel tumblr, narwhal microdosing blog...",
+      "colour": "#242846",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc1.jpg"
+    },
+    {
+      "id": 1,
+      "header": "Post-ironic Disrupt",
+      "body": "Swag biodiesel disrupt retro fashion, salvia food truck kitsch wolf DIY...",
+      "colour": "#ba9077",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc2.jpg"
+    },
+    {
+      "id": 2,
+      "header": "Lumber-Sexual Roof Party ",
+      "body": "Flexitarian 3 wolf moon cliche, migas scenester street art...",
+      "colour": "#1ABC9C",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc3.jpg"
+    }
+  ],
+  "NatureFriendlyData": [
+    {
+      "img": "/assets/images/grid.png",
+      "desc": "Generate almost all our energy off grid from Renewable sources (Solar and Wind)"
+    },
+    {
+      "img": "/assets/images/cfls.png",
+      "desc": "Use only LEDs and CFLs for all our lighting needs and a soon moving towards 100% LEDs only"
+    },
+    {
+      "img": "/assets/images/parabolic-solar-cookers.png",
+      "desc": "Cook 50% of meals and 20% of our guest meals on parabolic solar cookers"
+    },
+    {
+      "img": "/assets/images/recycle.png",
+      "desc": "Recycle 80% of all grey water & use this to water plants on the property"
+    },
+    {
+      "img": "/assets/images/pure-mountain-water.png",
+      "desc": "Provide pure mountain water for consumption, from our 300 feet deep bore well"
+    },
+    {
+      "img": "/assets/images/organic-flower.png",
+      "desc": "Organically grow all the flowers that we use daily, on our own property"
+    },
+    {
+      "img": "/assets/images/4km-private-paths.png",
+      "desc": "Have 4 km of private paths, on which guided trails are conducted to expose our guests to the beautiful flora and fauna of the region"
+    },
+    {
+      "img": "/assets/images/limit-accomadation.png",
+      "desc": "Limit our accommodation so that each guest can have around 1 acre of green space, thus reducing the stress on the forest while providing a private and serene experience"
+    }
+  ],
+  "AccomodationData": [
+    {
+      "id": 0,
+      "header": "HUTS",
+      "body": "Chillwave knausgaard chambray flannel tumblr, narwhal microdosing blog...",
+      "colour": "#242846",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc1.jpg"
+    },
+    {
+      "id": 1,
+      "header": "COTTAGES",
+      "body": "Swag biodiesel disrupt retro fashion, salvia food truck kitsch wolf DIY...",
+      "colour": "#ba9077",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc2.jpg"
+    },
+    {
+      "id": 2,
+      "header": "BOUGAINVILLE",
+      "body": "Flexitarian 3 wolf moon cliche, migas scenester street art...",
+      "colour": "#1ABC9C",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc3.jpg"
+    },
+    {
+      "id": 3,
+      "header": "MOHOGANY",
+      "body": "Farm-to-table tousled try-hard, normcore ethical tilde iPhone...",
+      "colour": "#C0392B",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc4.jpg"
+    },
+    {
+      "id": 4,
+      "header": "BAMBOO FOREST",
+      "body": "Tote bag flannel normcore polaroid +1. Quinoa actually 90s sustainable...",
+      "colour": "#513B56",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc5.jpg"
+    }
+  ],
+  "ExperienceCarouselData": [
+    {
+      "id": 0,
+      "header": "Gluten-free Bicycle",
+      "body": "Chillwave knausgaard chambray flannel tumblr, narwhal microdosing blog...",
+      "colour": "#242846",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc1.jpg"
+    },
+    {
+      "id": 1,
+      "header": "Post-ironic Disrupt",
+      "body": "Swag biodiesel disrupt retro fashion, salvia food truck kitsch wolf DIY...",
+      "colour": "#ba9077",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc2.jpg"
+    },
+    {
+      "id": 2,
+      "header": "Lumber-Sexual Roof Party ",
+      "body": "Flexitarian 3 wolf moon cliche, migas scenester street art...",
+      "colour": "#1ABC9C",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc3.jpg"
+    },
+    {
+      "id": 3,
+      "header": "Vegan hoodie trust fund",
+      "body": "Farm-to-table tousled try-hard, normcore ethical tilde iPhone...",
+      "colour": "#C0392B",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc4.jpg"
+    },
+    {
+      "id": 4,
+      "header": "cliche craft beer",
+      "body": "Tote bag flannel normcore polaroid +1. Quinoa actually 90s sustainable...",
+      "colour": "#513B56",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc5.jpg"
+    }
+  ],
+  "ExperienceFeatureData":[
+    {
+      "id":0,
+      "header": "SPA",
+      "img": "/assets/images/spa.png"
+    },
+    {
+      "id":1,
+      "header": "EXPLORE",
+      "img": "/assets/images/trekking1.jpg"
+    },
+    {
+      "id":2,
+      "header": "SEASONS",
+      "img": "/assets/images/seasons.jpg"
+    },
+    {
+      "id":3,
+      "header": "YOGA",
+      "img": "/assets/images/yoga.png"
+    }
+  ]
+}

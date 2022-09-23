@@ -1,0 +1,39 @@
+#navLogo {
+  height: 100px;
+}
+
+.carousol-wrapper + nav {
+  margin-top: 30px;
+}
+
+.no-bullets {
+  list-style: none;
+}
+
+.nav-bar {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #dedcdd;
+}
+
+.nav-bar .nav-log {
+  margin-bottom: 10px;
+}
+
+.nav-bar ul {
+  align-self: end;
+  height: 45px;
+  margin: 0 10px 12px 10px;
+  display: flex;
+}
+
+.nav-bar .nav-list li {
+  width: 135px;
+  border-left: 1px solid black;
+}
+
+.nav-bar .nav-list li:first-of-type {
+  border-left: 0;
+}

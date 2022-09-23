@@ -1,0 +1,40 @@
+.about-us .philosophy {
+  margin-top: 100px;
+  /* height: 600px; */
+  background-color: #f7f6f6;
+}
+
+.about-us .philosophy .info-tile-desc {
+  display: none;
+}
+
+.about-us .philosophy .info-tile {
+  border-bottom: none;
+}
+
+.about-us .philosophy .info-tiles {
+  justify-content: center;
+}
+
+.philosophy .heading {
+  padding-top: 80px;
+  color: #694a35;
+  letter-spacing: 1px;
+  font-size: 2.2rem;
+}
+
+.philosophy hr {
+  width: 26%;
+  border-top: 5px solid #694a35;
+}
+
+.nf {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 150px 10%;
+}
+.nf .nf-elem {
+  flex: 1 0 19%;
+  margin: 22px;
+  height: 275px;
+}

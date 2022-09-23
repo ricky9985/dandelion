@@ -1,0 +1,10 @@
+.info-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+}
+
+.info-tile-desc {
+  white-space: normal;
+  text-align: justify;
+}

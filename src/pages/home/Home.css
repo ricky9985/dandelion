@@ -1,0 +1,40 @@
+.home-info {
+  background-color: #f8f6f7;
+  margin: 120px 0 0 0;
+  padding: 30px 50px 0 50px;
+}
+
+.uniqeness {
+  margin-top: 50px;
+  display: flex;
+}
+.uniqeness-img {
+  padding: 0 20px;
+}
+.uniqeness img {
+  width: 370px;
+}
+
+.uniqeness .uniqness-desc {
+  padding-top: 20px;
+  text-align: left;
+}
+.uniqeness .uniqness-desc p {
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+}
+
+.home-booking-section {
+  position: absolute;
+  width: 100%;
+  background-color: #0000003b;
+  display: flex;
+  justify-content: center;
+  height: 90px;
+}
+
+.home-booking-form {
+  display: flex;
+  width: 60%;
+  padding-top: 28px;
+}
