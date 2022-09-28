@@ -2,38 +2,27 @@
   "HomeCarousel": [
     {
       "id": 0,
-      "header": "Gluten-free Bicycle",
+      "header": "OUR ACCOMODATION",
       "body": "Chillwave knausgaard chambray flannel tumblr, narwhal microdosing blog...",
       "colour": "#242846",
-      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc1.jpg"
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc1.jpg",
+      "seeMore": "/accom"
     },
     {
       "id": 1,
-      "header": "Post-ironic Disrupt",
+      "header": "THE EXPIRIENCE",
       "body": "Swag biodiesel disrupt retro fashion, salvia food truck kitsch wolf DIY...",
       "colour": "#ba9077",
-      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc2.jpg"
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc2.jpg",
+      "seeMore": "/exp"
     },
     {
       "id": 2,
-      "header": "Lumber-Sexual Roof Party ",
+      "header": "CORPORATE",
       "body": "Flexitarian 3 wolf moon cliche, migas scenester street art...",
       "colour": "#1ABC9C",
-      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc3.jpg"
-    },
-    {
-      "id": 3,
-      "header": "Vegan hoodie trust fund",
-      "body": "Farm-to-table tousled try-hard, normcore ethical tilde iPhone...",
-      "colour": "#C0392B",
-      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc4.jpg"
-    },
-    {
-      "id": 4,
-      "header": "cliche craft beer",
-      "body": "Tote bag flannel normcore polaroid +1. Quinoa actually 90s sustainable...",
-      "colour": "#513B56",
-      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc5.jpg"
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc3.jpg",
+      "seeMore": "/exp"
     }
   ],
   "InfoTilesData": [
@@ -137,27 +126,6 @@
       "body": "Swag biodiesel disrupt retro fashion, salvia food truck kitsch wolf DIY...",
       "colour": "#ba9077",
       "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc2.jpg"
-    },
-    {
-      "id": 2,
-      "header": "BOUGAINVILLE",
-      "body": "Flexitarian 3 wolf moon cliche, migas scenester street art...",
-      "colour": "#1ABC9C",
-      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc3.jpg"
-    },
-    {
-      "id": 3,
-      "header": "MOHOGANY",
-      "body": "Farm-to-table tousled try-hard, normcore ethical tilde iPhone...",
-      "colour": "#C0392B",
-      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc4.jpg"
-    },
-    {
-      "id": 4,
-      "header": "BAMBOO FOREST",
-      "body": "Tote bag flannel normcore polaroid +1. Quinoa actually 90s sustainable...",
-      "colour": "#513B56",
-      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc5.jpg"
     }
   ],
   "ExperienceCarouselData": [
@@ -197,26 +165,94 @@
       "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc5.jpg"
     }
   ],
-  "ExperienceFeatureData":[
+  "ExperienceFeatureData": [
     {
-      "id":0,
-      "header": "SPA",
-      "img": "/assets/images/spa.png"
+      "id": 0,
+      "header": "EXPLORE",
+      "img": "/assets/images/trekking1.jpg",
+      "link": "/explore"
     },
     {
-      "id":1,
-      "header": "EXPLORE",
+      "id": 1,
+      "header": "SEASONS",
+      "img": "/assets/images/seasons.jpg",
+      "link": "/seasons"
+    }
+  ],
+  "ExperienceExploreData": [
+    {
+      "id": 0,
+      "header": "STAR GAZING",
       "img": "/assets/images/trekking1.jpg"
     },
     {
-      "id":2,
-      "header": "SEASONS",
-      "img": "/assets/images/seasons.jpg"
+      "id": 1,
+      "header": "TREKKING",
+      "img": "/assets/images/trekking1.jpg"
     },
     {
-      "id":3,
-      "header": "YOGA",
-      "img": "/assets/images/yoga.png"
+      "id": 2,
+      "header": "BIRD WATCHING",
+      "img": "/assets/images/trekking1.jpg"
+    },
+    {
+      "id": 3,
+      "header": "BONFIRE",
+      "img": "/assets/images/trekking1.jpg"
+    },
+    {
+      "id": 4,
+      "header": "100FT SWIMMING POOL",
+      "img": "/assets/images/trekking1.jpg"
+    },
+    {
+      "id": 5,
+      "header": "BOARD GAMES AND TABLE TOP GAMES",
+      "img": "/assets/images/trekking1.jpg"
+    },
+    {
+      "id": 6,
+      "header": "RAFTING",
+      "img": "/assets/images/trekking1.jpg"
+    },
+    {
+      "id": 7,
+      "header": "JUNGLE SAFARI",
+      "img": "/assets/images/trekking1.jpg"
+    },
+    {
+      "id": 8,
+      "header": "DINNER WITH LOCALS",
+      "img": "/assets/images/trekking1.jpg"
+    }
+  ],
+  "ExperienceSeasonsData": [
+    {
+      "id": 0,
+      "header": "MONSOON",
+      "img": "/assets/images/trekking1.jpg",
+      "body": {
+        "title": "JUNE - SEPTEMBER",
+        "desc": "The locality experiences heavy rainfall and is known as Cherapunjee aka Sohra of the south. An exemplary weather to catch up on the missing books and novels, with our in-house game-room you can enjoy an extended stay at our resort."
+      }
+    },
+    {
+      "id": 1,
+      "header": "WINTER",
+      "img": "/assets/images/seasons.jpg",
+      "body": {
+        "title": "OCTOBER - FEBRUARY",
+        "desc": "It is the best weather to plan a holiday with us. The weather is cool and refreshing throughout the day. One can enjoy the afternoon sun beside the pool or hike into the forest to admire the beauty of the waterfall."
+      }
+    },
+    {
+      "id": 2,
+      "header": "SUMMER",
+      "img": "/assets/images/seasons.jpg",
+      "body": {
+        "title": "MARCH - MAY",
+        "desc": "Perfect place to enjoy the summer vibes. The place offers an excellent combination of the mild summer sun and cool mountain breeze. Also have a chance to experience the “Dandeli Mist”, it is the phenomena where during daylight one can encounter a wild patch of fog, moving through the forest. The visibility as low as 20 ft."
+      }
     }
   ]
 }

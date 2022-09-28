@@ -38,3 +38,49 @@
   width: 60%;
   padding-top: 28px;
 }
+
+#homeLogo {
+  position: relative;
+  bottom: -8%;
+}
+#homeLogo img {
+  height: calc(55vw - 148px);
+  max-width: 438px;
+  max-height: 346px;
+}
+
+.bounceY {
+  color: white;
+  position: relative;
+  bottom: -3.4rem;
+  font-size: 4rem;
+  animation: bounceY 2s ease infinite;
+}
+
+@keyframes bounceY {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.carousol-overlay {
+  position: absolute;
+  left: 32vw;
+  bottom: 20px;
+  background: #00000052;
+  border-radius: 50%;
+  width: 55vw;
+  height: 55vw;
+  max-width: 493px;
+  max-height: 493px;
+}

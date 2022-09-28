@@ -1,9 +1,10 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./Vertical-Carousol.css";
 
 export default function VerticalCarousol(props) {
+  const [activeId, setActiveId] = useState(0);
   const [state, setState] = useState({
-    activeID: 0,
+    activeId: 0,
     wrapperStyle: {
       backgroundImage: `url('${props.data[0].img}')`,
     },
@@ -14,7 +15,7 @@ export default function VerticalCarousol(props) {
   });
   const _changeActive = (id) => {
     setState({
-      activeID: id,
+      activeId: id,
       wrapperStyle: {
         backgroundImage: `url('${props.data[id].img}')`,
       },
@@ -22,22 +23,34 @@ export default function VerticalCarousol(props) {
         backgroundColor: props.data[id].colour,
       },
     });
+    setActiveId(id);
   };
+
+  useEffect(() => {
+    setTimeout(() => {
+      if (activeId === props.data.length - 1) {
+        _changeActive(0);
+      } else {
+        _changeActive(activeId + 1);
+      }
+    }, 5000);
+  }, [activeId]);
 
   return (
     <section className="carousol-wrapper" style={state.wrapperStyle}>
       <Selectors
         data={props.data}
-        activeID={state.activeID}
+        activeId={state.activeId}
         _changeActive={_changeActive.bind(this)}
       />
+       {props.children}
     </section>
   );
 }
 
 function Selectors(props) {
   const _handleClick = (id) => {
-    if (id !== props.activeID) {
+    if (id !== props.activeId) {
       props._changeActive(id);
     } else {
       return;
@@ -51,7 +64,7 @@ function Selectors(props) {
           id={item.id}
           _handleClick={_handleClick}
           _changeActive={props._changeActive}
-          activeID={props.activeID}
+          activeId={props.activeId}
         />
       ))}
     </div>
@@ -60,7 +73,7 @@ function Selectors(props) {
 
 function Selector(props) {
   let componentClass = "selector";
-  if (props.activeID === props.id) {
+  if (props.activeId === props.id) {
     componentClass = "selector active";
   }
   return (

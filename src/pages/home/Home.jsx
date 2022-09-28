@@ -4,17 +4,18 @@ import VerticalCarousol from "../../components/vertical-carousol/Vertical-Carous
 import Footer from "../../layouts/footer/Footer";
 import NavBar from "../../layouts/nav/Nav";
 import "./Home.css";
-
 import DatePicker from "react-datepicker";
-
 import "react-datepicker/dist/react-datepicker.css";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import SData from "../../data.json";
+import Overlay from "./Home-Overlay";
+import { Link } from "react-router-dom";
 
 export default function HomePage() {
   const { HomeCarousel, InfoTilesData } = SData;
   const [startDate, setStartDate] = useState(null);
   const [endDate, setEndDate] = useState(null);
+  const navRef = useRef(null);
   return (
     <div>
       <div className="home-booking-section">
@@ -32,27 +33,32 @@ export default function HomePage() {
           />
         </div>
       </div>
-      <VerticalCarousol data={HomeCarousel}></VerticalCarousol>
-      <NavBar></NavBar>
+      <VerticalCarousol data={HomeCarousel}>
+        <Overlay navRef={navRef}></Overlay>
+      </VerticalCarousol>
+      <NavBar refProp={navRef}></NavBar>
       <section>
-        <h2>THE MACHAN - A TREE HOUSE RESORT IN LONAVALA</h2>
+        <h2>THE DANDELION - A TREE HOUSE RESORT IN LONAVALA</h2>
         <img
           className="h10"
           src={window.location.origin + "/assets/images/quote-left-solid.svg"}
           alt=""
         ></img>
         <p>
-          AT THE MACHAN WE’RE NOT JUST SELLING YOU A ROOM … WE’RE IN THE
-          BUSINESS OF CURATING EXPERIENCES THAT LAST A LIFETIME
+          AT THE DANDELION … WE AIM TO PROVIDE TAILORED EXPERIENCES AND MEMORIES
+          THAT LAST A LIFTIME
         </p>
       </section>
       {HomeCarousel.map((d, dIn) => {
         return (
           <DataImage
+            data={d}
             backgroundUrl={d.img}
             title={d.header}
             key={`data-image-${dIn}`}
-          ></DataImage>
+          >
+            <div className="content-more click-cursor"><Link to={d.seeMore}>See More</Link></div>
+          </DataImage>
         );
       })}
       <section className="home-info">

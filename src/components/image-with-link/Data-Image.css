@@ -1,27 +1,68 @@
+.content-more {
+  position: absolute;
+  bottom: 35px;
+  right: 87px;
+  border-left-color: inherit;
+  border-left: 2px solid;
+  padding-left: 7px;
+}
+
+.content-more a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .data-image-text {
-  position: relative;
+  position: absolute;
   color: white;
-  top: 178px;
+  /* top: 178px; */
+  bottom: 70px;
+  left: 6vw;
   display: inline-block;
-  right: 25%;
   border-left: 3px solid white;
   padding-left: 20px;
+  font-size: 1.5rem;
+}
+
+.data-image-text .title{
+  display: inline-block;
 }
 
 .data-image-container {
-  overflow: auto;
+  position: relative;
   white-space: nowrap;
-  transition: 2s all ease;
   overflow: hidden;
 }
 
 .data-image-container .data-image {
   width: 100%;
-  display: inline-block;
+  display: block;
+  transition: 2s all ease;
+  overflow: hidden;
+}
+
+.data-image-container .data-image.closed {
+  margin-left: -400px;
+}
+
+.data-image-container .data-image.open {
+  margin-left: 0px;
 }
 
 .data-image-container .slide-content {
   display: inline-block;
+  display: block;
+  position: absolute;
+  transition: 2s all ease;
+  bottom: 0;
+  z-index: 100;
+}
+
+.data-image-container .slide-content.closed {
+  right: -610px;
+}
+.data-image-container .slide-content.open {
+  right: 0;
 }
 
 .slide-content {
@@ -30,9 +71,37 @@
   vertical-align: bottom;
   margin: 0;
   padding: 0 10px;
+  color: #8d634b;
 }
 
 .slide-content .content {
   white-space: normal;
   text-align: justify;
+}
+
+.right-arrow{
+  color: white;
+  position: relative;
+  display: inline-block;
+  left: 1.2rem;
+}
+
+.bounceX {
+  animation: bounceX 2s ease infinite;
+}
+
+@keyframes bounceX {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(-20px);
+  }
+  60% {
+    transform: translateX(-15px);
+  }
 }

@@ -1,5 +1,6 @@
-
-
+.carousol-wrapper {
+  transition: background 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
 .selectors {
   --white-color: #fff;
   position: absolute;
@@ -35,7 +36,7 @@
   opacity: 0.9;
 }
 
-.selectors .selector .active {
+.selectors .selector.active {
   background: white;
   opacity: 0.9;
 }

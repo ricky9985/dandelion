@@ -1,35 +1,50 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import React, { useRef, useState } from "react";
 import "./Data-Image.css";
+import { Link } from "react-router-dom";
 
 export default function DataImage(props) {
   const [state, setState] = useState({ inView: "img" });
   const { backgroundUrl, title } = props;
   const containerRef = useRef(null);
   const style = {
-    backgroundImage: `url('${backgroundUrl}')`,
+    // backgroundImage: `url('${backgroundUrl}')`,
   };
   const toggleInfo = () => {
     console.log(containerRef);
     if (state.inView === "img") {
-      containerRef.current.scrollLeft +=
-        containerRef.current.scrollWidth - containerRef.current.offsetWidth;
+      // containerRef.current.scrollLeft +=
+      //   containerRef.current.scrollWidth - containerRef.current.offsetWidth;
       setState({ ...state, inView: "ctn" });
     } else {
-      containerRef.current.scrollLeft -=
-        containerRef.current.scrollWidth - containerRef.current.offsetWidth;
+      // containerRef.current.scrollLeft -=
+      //   containerRef.current.scrollWidth - containerRef.current.offsetWidth;
       setState({ ...state, inView: "img" });
     }
   };
   return (
     <section ref={containerRef} className="data-image-container">
-      <div className="data-image h300" style={style} onClick={toggleInfo}>
+      <div
+        className={`data-image click-cursor h350 ${
+          state.inView === "img" ? "open" : "closed"
+        }`}
+        onClick={toggleInfo}
+      >
+        <img src={backgroundUrl} alt=""></img>
         <div className="data-image-text">
-          <h2 style={{ margin: 0 }}>
-            <span>{title}</span>
-          </h2>
+          <span className="title">{title}</span>
+          <div className="bounceX right-arrow">
+            <FontAwesomeIcon icon={faAngleRight} />
+          </div>
         </div>
       </div>
-      <div className="slide-content h300">
+
+      <div
+        className={`slide-content h350 ${
+          state.inView === "ctn" ? "open" : "closed"
+        }`}
+      >
         <div className="content">
           <p>
             The Machan is an exclusive eco-resort with unique tree houses rising
@@ -40,6 +55,7 @@ export default function DataImage(props) {
             accessible weekend getaway.
           </p>
         </div>
+        {props.children}
       </div>
     </section>
   );

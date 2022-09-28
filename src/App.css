@@ -1,6 +1,8 @@
 :root {
   margin: 0;
   padding: 0;
+  --primary-color: #694a35;
+  --text-color: #8f776a;
 }
 
 @media screen and (min-width: 760px) {
@@ -99,4 +101,12 @@ body,
 
 .h300 {
   height: 300px;
+}
+
+.h350 {
+  height: 350px;
+}
+
+.click-cursor {
+  cursor: pointer;
 }
