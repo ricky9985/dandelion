@@ -1,0 +1,30 @@
+.acc-attributes {
+  font-size: 10px;
+  font-weight: 600;
+  display: flex;
+  margin: 30px 55px;
+  flex-wrap: wrap;
+}
+
+.acc-attributes div {
+  width: 57px;
+  flex: 1 0 21%;
+  margin-bottom: 26px;
+}
+
+.acc-attributes div img {
+  width: inherit;
+}
+
+.acc-attributes div div {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.acc-attributes + .close-content {
+  top: 15px;
+  right: 30px;
+  border: none;
+  bottom: unset;
+}

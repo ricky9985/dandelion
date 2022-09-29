@@ -115,17 +115,176 @@
   "AccomodationData": [
     {
       "id": 0,
-      "header": "HUTS",
+      "header": "COTTAGES",
       "body": "Chillwave knausgaard chambray flannel tumblr, narwhal microdosing blog...",
       "colour": "#242846",
-      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc1.jpg"
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc1.jpg",
+      "attributes": [
+        {
+          "title": "2 GUESTS",
+          "img": "/assets/images/roomAttrs/twin.png"
+        },
+        {
+          "title": "EXTRA GUEST",
+          "img": "/assets/images/roomAttrs/businessman.png"
+        },
+        {
+          "title": "PRIVATE DECK",
+          "img": "/assets/images/roomAttrs/outside.png"
+        },
+        {
+          "title": "COUPLE FRIENDLY",
+          "img": "/assets/images/roomAttrs/couple.png"
+        },
+        {
+          "title": "CHILD FRIENDLY (ALL)",
+          "img": "/assets/images/roomAttrs/daughter.png"
+        },
+        {
+          "title": "AC",
+          "img": "/assets/images/roomAttrs/air-conditioner.png"
+        },
+        {
+          "title": "TELEVISION",
+          "img": "/assets/images/roomAttrs/tv.png"
+        },
+        {
+          "title": "WIFI",
+          "img": "/assets/images/roomAttrs/wifi.png"
+        }
+      ]
     },
     {
       "id": 1,
-      "header": "COTTAGES",
+      "header": "HUTS",
       "body": "Swag biodiesel disrupt retro fashion, salvia food truck kitsch wolf DIY...",
       "colour": "#ba9077",
-      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc2.jpg"
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc2.jpg",
+      "attributes": [
+        {
+          "title": "2 GUESTS",
+          "img": "/assets/images/roomAttrs/twin.png"
+        },
+        {
+          "title": "EXTRA GUEST",
+          "img": "/assets/images/roomAttrs/businessman.png"
+        },
+        {
+          "title": "PRIVATE DECK",
+          "img": "/assets/images/roomAttrs/outside.png"
+        },
+        {
+          "title": "COUPLE FRIENDLY",
+          "img": "/assets/images/roomAttrs/couple.png"
+        },
+        {
+          "title": "CHILD FRIENDLY (12+)",
+          "img": "/assets/images/roomAttrs/daughter.png"
+        },
+        {
+          "title": "AC",
+          "img": "/assets/images/roomAttrs/air-conditioner.png"
+        },
+        {
+          "title": "TELEVISION",
+          "img": "/assets/images/roomAttrs/tv.png"
+        },
+        {
+          "title": "WIFI",
+          "img": "/assets/images/roomAttrs/wifi.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "header": "TENT",
+      "body": "Swag biodiesel disrupt retro fashion, salvia food truck kitsch wolf DIY...",
+      "colour": "#ba9077",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc2.jpg",
+      "attributes": [
+        {
+          "title": "2 GUESTS",
+          "img": "/assets/images/roomAttrs/twin.png"
+        },
+        {
+          "title": "EXTRA GUEST",
+          "img": "/assets/images/roomAttrs/businessman.png"
+        },
+        {
+          "title": "POWER PLUG",
+          "img": "/assets/images/roomAttrs/extension-cord.png"
+        },
+        {
+          "title": "OWN TENT",
+          "img": "/assets/images/roomAttrs/camping.png"
+        },
+        {
+          "title": "CHILD FRIENDLY (12+)",
+          "img": "/assets/images/roomAttrs/daughter.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "header": "SHARED ROOM",
+      "body": "Swag biodiesel disrupt retro fashion, salvia food truck kitsch wolf DIY...",
+      "colour": "#ba9077",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc2.jpg",
+      "attributes": [
+        {
+          "title": "2 GUESTS",
+          "img": "/assets/images/roomAttrs/twin.png"
+        },
+        {
+          "title": "SHARED WASHROOM",
+          "img": "/assets/images/roomAttrs/washroom.png"
+        },
+        {
+          "title": "LOBBY",
+          "img": "/assets/images/roomAttrs/lobby.png"
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "header": "PREMIUM ROOMS",
+      "body": "Chillwave knausgaard chambray flannel tumblr, narwhal microdosing blog...",
+      "colour": "#242846",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/rvc1.jpg",
+      "attributes": [
+        {
+          "title": "2 GUESTS",
+          "img": "/assets/images/roomAttrs/twin.png"
+        },
+        {
+          "title": "EXTRA GUEST",
+          "img": "/assets/images/roomAttrs/businessman.png"
+        },
+        {
+          "title": "SUN ROOF",
+          "img": "/assets/images/roomAttrs/deck-chair.png"
+        },
+        {
+          "title": "COUPLE FRIENDLY",
+          "img": "/assets/images/roomAttrs/couple.png"
+        },
+        {
+          "title": "CHILD FRIENDLY (ALL)",
+          "img": "/assets/images/roomAttrs/daughter.png"
+        },
+        {
+          "title": "TELEVISION",
+          "img": "/assets/images/roomAttrs/tv.png"
+        },
+        {
+          "title": "WIFI",
+          "img": "/assets/images/roomAttrs/wifi.png"
+        },
+        {
+          "title": "SHARED KITCHEN AND DINING",
+          "img": "/assets/images/roomAttrs/washroom.png"
+        }
+      ]
     }
   ],
   "ExperienceCarouselData": [

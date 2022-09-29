@@ -18,9 +18,9 @@ export default function AboutUsPage() {
         <hr></hr>
       </section>
       <div className="nf">
-        {NatureFriendlyData.map((d) => {
+        {NatureFriendlyData.map((d, dIn) => {
           return (
-            <div className="nf-elem">
+            <div key={dIn} className="nf-elem">
               <img src={window.location.origin + d.img} alt=""></img>
               <p>{d.desc}</p>
             </div>

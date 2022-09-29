@@ -8,10 +8,9 @@ import "./Experience.css";
 import { useNavigate, useLocation } from "react-router-dom";
 
 export default function ExpHome() {
-  const { ExperienceCarouselData, ExperienceFeatureData } = SData;
+  const { ExperienceFeatureData } = SData;
   let navigate = useNavigate();
   const location = useLocation();
-  console.log(location);
   return (
     <section className="exp-info">
       <div className="exp-info-title">

@@ -57,6 +57,20 @@
   animation: bounceY 2s ease infinite;
 }
 
+.content-more {
+  position: absolute;
+  bottom: 35px;
+  right: 87px;
+  border-left-color: inherit;
+  border-left: 2px solid;
+  padding-left: 7px;
+}
+
+.content-more a {
+  text-decoration: none;
+  color: inherit;
+}
+
 @keyframes bounceY {
   0%,
   20%,

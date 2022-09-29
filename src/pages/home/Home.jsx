@@ -57,7 +57,19 @@ export default function HomePage() {
             title={d.header}
             key={`data-image-${dIn}`}
           >
-            <div className="content-more click-cursor"><Link to={d.seeMore}>See More</Link></div>
+            <div className="content">
+              <p>
+                The Machan is an exclusive eco-resort with unique tree houses
+                rising 30 - 45 feet above the forest, offering complete serenity
+                to those looking to escape into nature. Located in Jambulne, one
+                of 25 biological hotspots of the world and a mere 2.5 hours
+                drive from Mumbai or 1.5 hours drive from Pune, the Machan makes
+                for an accessible weekend getaway.
+              </p>
+            </div>
+            <div className="content-more click-cursor">
+              <Link to={d.seeMore}>See More</Link>
+            </div>
           </DataImage>
         );
       })}

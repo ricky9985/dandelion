@@ -5,9 +5,9 @@ export default function InfoTiles(props) {
   const { data } = props;
   return (
     <div className="info-tiles">
-      {data.map((d) => {
+      {data.map((d, dIn) => {
         return (
-          <InfoTile title={d.header} bkImg={d.img}>
+          <InfoTile key={dIn} title={d.header} bkImg={d.img}>
             <div className="info-tile-desc">{d.body}</div>
           </InfoTile>
         );

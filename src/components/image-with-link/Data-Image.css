@@ -1,17 +1,3 @@
-.content-more {
-  position: absolute;
-  bottom: 35px;
-  right: 87px;
-  border-left-color: inherit;
-  border-left: 2px solid;
-  padding-left: 7px;
-}
-
-.content-more a {
-  text-decoration: none;
-  color: inherit;
-}
-
 .data-image-text {
   position: absolute;
   color: white;
@@ -24,7 +10,7 @@
   font-size: 1.5rem;
 }
 
-.data-image-text .title{
+.data-image-text .title {
   display: inline-block;
 }
 
@@ -79,7 +65,7 @@
   text-align: justify;
 }
 
-.right-arrow{
+.right-arrow {
   color: white;
   position: relative;
   display: inline-block;

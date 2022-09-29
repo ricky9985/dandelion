@@ -27,13 +27,16 @@ export default function VerticalCarousol(props) {
   };
 
   useEffect(() => {
-    setTimeout(() => {
+    const d = setTimeout(() => {
       if (activeId === props.data.length - 1) {
         _changeActive(0);
       } else {
         _changeActive(activeId + 1);
       }
     }, 5000);
+    return () => {
+      clearTimeout(d);
+    };
   }, [activeId]);
 
   return (
@@ -43,7 +46,7 @@ export default function VerticalCarousol(props) {
         activeId={state.activeId}
         _changeActive={_changeActive.bind(this)}
       />
-       {props.children}
+      {props.children}
     </section>
   );
 }
