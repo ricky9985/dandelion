@@ -94,10 +94,3 @@
   bottom: 1vh;
   left: 46vw;
 }
-
-.activities-container {
-  padding: 0 70px;
-  text-align: justify;
-  font-weight: 600;
-  color: var(--text-color);
-}

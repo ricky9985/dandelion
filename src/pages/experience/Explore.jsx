@@ -8,7 +8,7 @@ export default function Explore() {
         <span>Explore</span>
         <hr style={{ width: "65px" }}></hr>
       </div>
-      <div className="activities-container">
+      <div className="para-container">
         We encourage our guests to detach themselves from all forms of
         electronic devices eg. Mobile, TV, Laptops, etc and enjoy the peaceful
         beauty and serenity the place has to offer. Our resort is surrounded on

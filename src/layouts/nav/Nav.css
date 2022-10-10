@@ -44,6 +44,16 @@
   text-decoration: none;
   opacity: 0.6;
 }
+.nav-list div {
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  opacity: 0.6;
+}
+.nav-list div:hover {
+  color: var(--primary-color);
+  opacity: 1;
+}
 .nav-list a:hover {
   color: var(--primary-color);
   opacity: 1;

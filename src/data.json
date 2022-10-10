@@ -413,5 +413,51 @@
         "desc": "Perfect place to enjoy the summer vibes. The place offers an excellent combination of the mild summer sun and cool mountain breeze. Also have a chance to experience the “Dandeli Mist”, it is the phenomena where during daylight one can encounter a wild patch of fog, moving through the forest. The visibility as low as 20 ft."
       }
     }
+  ],
+  "FaqData": [
+    {
+      "heading": "Are your rooms air-conditioned?",
+      "summary": "Although the weather is pleasant from Oct to Feb, we do provide air-conditioner in some our rooms. Kindly, confirm your preference during booking."
+    },
+    {
+      "heading": "Are mosquitoes an issue?",
+      "summary": "Mosquitoes are primarily ground-breeders and have a short breeding season (post-Monsoons). Each of the rooms have All-Out plug-ins right next to each of the beds."
+    },
+    {
+      "heading": "Is there a swimming pool at the resort?",
+      "summary": "We have 100 ft swimming pool equipped with pool lights. So that the guests can enjoy the pool at night."
+    },
+    {
+      "heading": "What activities do you have on your property?",
+      "summary": "Please do take a look at our page under The Experience section on our website. It will give you a plethora of options of what our guests like to enjoy on and off our property. In short, we are a Nature based resort and focus our activities on the outdoors."
+    },
+    {
+      "heading": "Are there any low tariff dates during the year?",
+      "summary": "Our weekday rates are approx. 20% lower that our weekend rates and we do offer single-night packages on weekdays compared to the two-night minimum on the weekends. Due to our small size, our rates are set at the beginning of the year and remain flat throughout, except on certain long weekends or holidays such as Diwali, Christmas & New Year's. "
+    },
+    {
+      "heading": "Do you allow pets at The Dandelion®?",
+      "summary": "As much as we love the outdoors and animals, we have a no pet policy at The Dandelion®. Since we are surrounded by a forested property, their safety in the wilderness is of utmost importance to us and without a permanent vet on the property, we are unable to compromise on that for that self same reason itself. In the meantime we would suggest checking www.collarfolk.com for their pet friendly suggestions."
+    },
+    {
+      "heading": "Directions on how to reach there?",
+      "summary": "Nearest railway station is Londa Jn. Nearest airport is Belgaum Airport followed by Goa Airport."
+    },
+    {
+      "heading": "How long would it take to reach from Goa and Bangalore?",
+      "summary": "By road, from Goa it takes 2 hrs and from Bangalore it takes 7 hrs."
+    },
+    {
+      "heading": "Can a car pickup be arranged for me and my family?",
+      "summary": "We have paid pickup service available from Goa Airport, Begaum Airport and Hubli Jn, Londa Jn railway stations. For any other place kindly give our front desk a call."
+    },
+    {
+      "heading": "What are the mobile networks that are available there? Do you have Wi-Fi?",
+      "summary": "Due to our remote location, network connectivity (both phone & internet) is sporadic on our property, especially in the Monsoons. We currently do have Wi-Fi services available at a nominal charge. By availing Wi-Fi services, you can be connected at all times using Voice Over Wi-Fi (available on Vodafone, Idea, Airtel and Jio). "
+    },
+    {
+      "heading": "What about my Lunch/Dinner?",
+      "summary": "We do not run a restaurant on our property since we only cater to our residents. For Lunch & Dinner, we have rotational daily set menus, served buffet-style, which can be ordered in advance. Rates for meals are as follows (exlusive of taxes, GST 18%):<br/><br/><table><tbody><tr><th>Meal Charges</th></tr><tr><th>Lunch  &#8377 1000/-</th></tr><tr><th>Dinner  &#8377 1000/-</th></tr></tbody></table>"
+    }
   ]
 }

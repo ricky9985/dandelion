@@ -1,0 +1,40 @@
+.tnc .para-container {
+  font-size: 20px;
+  line-height: 2rem;
+}
+
+.faq .MuiAccordion-root {
+  background-color: #f8f9fc;
+}
+.faq .MuiAccordion-root :hover {
+  background-color: white;
+}
+
+.faq .MuiAccordion-root.Mui-expanded {
+  background-color: white;
+}
+
+.faq .para-container table {
+  width: 300px;
+  border: 1px solid;
+}
+
+.faq .para-container table {
+  width: 300px;
+  border: 1px solid;
+}
+
+.faq .para-container tr:not(:last-child) th {
+  border-bottom: 1px solid;
+}
+
+.privacy {
+  font-size: 21px;
+  line-height: 35px;
+}
+
+.contact {
+  font-size: 21px;
+  line-height: 35px;
+}
+

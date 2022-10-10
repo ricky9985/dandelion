@@ -1,0 +1,18 @@
+.corporate .para-col {
+  flex: 47%;
+}
+
+.corporate .para-container {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  line-height: 38px;
+  letter-spacing: 0.4px;
+  font-size: 17px;
+  font-family: "DINPro-Regular";
+  font-weight: 600;
+}
+
+.corporate #fewPoints {
+  font-family: "DINPro-Light";
+}
